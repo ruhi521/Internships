@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "41c6deb5b1e2b36b",
+    "type": "split",
+    "children": [
+      {
+        "id": "351955571e552e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c671e1451c0b5954",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ba4656c2b2c2960",
+    "type": "split",
+    "children": [
+      {
+        "id": "9110d1c607c5d9c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8f80e6d2d0b4a1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2c32f4c912401055",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2baaf50ccbf3c612",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd7293bebbd5d15f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f4aa6d0bafe9190",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2495f9010ab86a9d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8916b57e415f3400",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "51881d708b11bc94",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1a3f7c2e690dc3b9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a75f3dc882ecf3a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e8f80e6d2d0b4a1d",
+  "lastOpenFiles": [
+    "SWYNEX/Responsive Landing Page/index.html",
+    "SWYNEX/Responsive Landing Page/video/logo.mp4",
+    "SWYNEX/Responsive Landing Page/video",
+    "SWYNEX/Responsive Landing Page/JS/script.js",
+    "SWYNEX/Responsive Landing Page/JS",
+    "SWYNEX/Responsive Landing Page/Images/pics/welcome.jpg",
+    "SWYNEX/Responsive Landing Page/Images/pics/weather.avif",
+    "SWYNEX/Responsive Landing Page/Images/pics/w3.jpg",
+    "SWYNEX/Responsive Landing Page/Images/pics/w2.jpg",
+    "SWYNEX/Responsive Landing Page/Images/pics/w1.jpg",
+    "SWYNEX/Responsive Landing Page/Images/pics/monitor.webp",
+    "SWYNEX/Responsive Landing Page/Images/pics",
+    "SWYNEX/Responsive Landing Page/Images/Icons/weather.png",
+    "SWYNEX/Responsive Landing Page/Images/Icons/smartphone.png",
+    "SWYNEX/Responsive Landing Page/Images/Icons/logo.png",
+    "SWYNEX/Responsive Landing Page/Images/Icons/list.png",
+    "SWYNEX/Responsive Landing Page/Images/Icons",
+    "SWYNEX/Responsive Landing Page/Images",
+    "SWYNEX/Responsive Landing Page/CSS/style.css",
+    "SWYNEX/Responsive Landing Page/CSS"
+  ]
+}
