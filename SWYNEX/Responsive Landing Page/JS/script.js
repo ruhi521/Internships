@@ -105,7 +105,7 @@ if (startBtn) {
     startBtn.addEventListener("click", () => {
 
         alert(
-            "🌱 Welcome to Smart Farm! Let's grow together."
+            "Welcome to Smart Farm! Let's grow together."
         );
 
     });
