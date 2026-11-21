@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+<div class="add-task-container">
+
+    <h1>Add New Farm Task</h1>
+
+    <form id="task-form">
+
+        <label>Task Name</label>
+        <input
+            type="text"
+            id="task-name"
+            placeholder="Enter task name"
+        >
+
+        <label>Description</label>
+        <textarea
+            id="task-description"
+            placeholder="Enter description"
+        ></textarea>
+
+        <label>Due Date</label>
+        <input
+            type="date"
+            id="task-date"
+        >
+
+        <button type="submit">
+            Save Task
+        </button>
+
+        <a href="./index.html">
+            Cancel
+        </a>
+
+    </form>
+
+</div>
+
+<script src="./JS/task.js"></script>
+
+</body>
+</html>

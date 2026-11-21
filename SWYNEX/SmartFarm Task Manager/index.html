@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFarm | Dashboard</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <aside class="sidebar" id="sidebar">
+
+            <div class="sidebar-header">
+                <h2>🌱 SmartFarm</h2>
+                <button id="sidebar-toggle" aria-label="Toggle sidebar">
+                    ☰
+                </button>
+            </div>
+
+            <nav class="sidebar-nav">
+
+    <a href="#" class="nav-link active">
+        <span class="icon">⌂</span>
+        <span class="label">Dashboard</span>
+    </a>
+
+    <a href="#" class="nav-link">
+        <span class="icon">☷</span>
+        <span class="label">All Tasks</span>
+    </a>
+
+    <a href="#" class="nav-link">
+        <span class="icon">✓</span>
+        <span class="label">My Tasks</span>
+    </a>
+
+    <a href="#" class="nav-link">
+        <span class="icon">♙</span>
+        <span class="label">Workers</span>
+    </a>
+
+    <a href="#" class="nav-link">
+        <span class="icon">▦</span>
+        <span class="label">Calendar</span>
+    </a>
+
+    <a href="#" class="nav-link">
+        <span class="icon">⚙</span>
+        <span class="label">Settings</span>
+    </a>
+
+</nav>
+
+            <div class="sidebar-footer">
+                <button id="logout-btn">Logout</button>
+            </div>
+
+        </aside>
+
+
+        <main class="main-content">
+
+            
+            <header class="dashboard-header">
+
+                <button id="mobile-menu" aria-label="Open navigation">
+                    ☰
+                </button>
+
+                <div class="welcome-message">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back <b>John!</b></p>
+                </div>
+
+                <div class="header-actions">
+                    <button aria-label="Notifications">🔔</button>
+
+                    <div class="user-profile">
+                        <span>👤</span>
+                        <div>
+                            <h4>John</h4>
+                            <p>Administrator</p>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+
+            <section class="dashboard-overview">
+
+                <h2>Farm Overview</h2>
+
+                <div class="summary-cards">
+
+                    <div class="summary-card">
+                        <h3>Total Tasks</h3>
+                        <p class="card-number" id="total-tasks">0</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <h3>Completed</h3>
+                        <p class="card-number" id="completed-tasks">0</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <h3>Pending</h3>
+                        <p class="card-number" id="pending-tasks">0</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <h3>Overdue</h3>
+                        <p class="card-number" id="overdue-tasks">0</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            
+            <section class="recent-tasks">
+
+                <div class="section-header">
+                    <h2>Recent Tasks</h2>
+                    <button onclick="window.location.href='./task.html' ">
+    + Add New Task
+</button>
+                </div>
+
+                <div class="task-list" id="task-list">
+                    <!-- Tasks will be rendered here using JavaScript -->
+                </div>
+
+            </section>
+
+
+            
+            <section class="upcoming-deadlines">
+
+                <h2>Upcoming Deadlines</h2>
+
+                <div id="upcoming-tasks">
+                    <!-- Upcoming tasks will appear here -->
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="./JS/script.js"></script>
+
+</body>
+</html>
