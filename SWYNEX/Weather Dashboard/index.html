@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+
+    <header>
+        <h1>Weather Dashboard</h1>
+        <p>Monitor weather conditions for your farm</p>
+    </header>
+
+   
+    <section class="search-section">
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name"
+        >
+
+        <button id="searchBtn">
+            Search
+        </button>
+    </section>
+
+
+    <div id="loading" class="hidden">
+        Loading weather data...
+    </div>
+
+    
+    <div id="error" class="hidden">
+        Something went wrong.
+    </div>
+
+    
+    <section id="weatherContainer">
+
+        <h2>Current Weather</h2>
+
+        <div class="weather-card">
+
+            <div class="weather-header">
+    <span id="weatherIcon">☀️</span>
+    <h3 id="cityName">City Name</h3>
+</div>
+
+            <p id="temperature">
+                Temperature:
+            </p>
+
+            <p id="condition">
+                Condition:
+            </p>
+
+            <p id="humidity">
+                Humidity:
+            </p>
+
+            <p id="wind">
+                Wind Speed:
+            </p>
+
+        </div>
+
+    </section>
+
+    
+    <section id="forecastContainer">
+
+        <h2>Forecast</h2>
+
+        <div class="forecast-cards">
+
+        </div>
+
+    </section>
+
+    <section class="filter-section">
+
+        <label for="weatherFilter">Filter Forecast:</label>
+        <select id="weatherFilter">
+            <option value="all">All Conditions</option>
+            <option value="Clear Sky">Clear Sky</option>
+            <option value="Partly Cloudy">Partly Cloudy</option>
+            <option value="Rain">Rain</option>
+            <option value="Drizzle">Drizzle</option>
+            <option value="Foggy">Foggy</option>
+            <option value="Snow">Snow</option>
+            <option value="Thunderstorm">Thunderstorm</option>
+        </select>
+
+    </section>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html
